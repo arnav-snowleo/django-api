@@ -5,5 +5,5 @@ from django.db import models
 
 class Employee(models.Model):
     full_name = models.CharField(max_length=50)
-    emp_id = models.IntegerField(null=True, blank=False)
+    emp_id = models.IntegerField(null=False, blank=False)
     salary = models.IntegerField(null=True, blank=True)
