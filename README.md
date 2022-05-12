@@ -14,12 +14,12 @@ pw: djangoadmin1234
     1. python manage.py makemigrations employeeapi
     2. python manage.py migrate
 
-> SERIALIZERS
-# python representation of data <-> json
-# serializers used to define how we want this data conversion to be like
+# SERIALIZERS
+> python representation of data <-> json
+> serializers used to define how we want this data conversion to be like
 
-> Viewset.
-# by defining EmployeeViewset. it creates classes like list(), retrieve() , create() , update() , destroy()
-# for web methods like get put post
+# Viewset.
+> by defining EmployeeViewset. it creates classes like list(), retrieve() , create() , update() , destroy()
+> for web methods like get put post
 
 > Running on ```localhost:8000/api/employee/```
