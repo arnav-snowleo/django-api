@@ -13,3 +13,11 @@ pw: djangoadmin1234
 > Then make model in models.py and execute to see changes in pgadmin: 
     1. python manage.py makemigrations employeeapi
     2. python manage.py migrate
+
+> SERIALIZERS
+# python representation of data <-> json
+# serializers used to define how we want this data conversion to be like
+
+> Viewset.
+# by defining EmployeeViewset. it creates classes like list(), retrieve() , create() , update() , destroy()
+# for web methods like get put post
