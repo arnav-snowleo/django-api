@@ -22,4 +22,4 @@ pw: djangoadmin1234
 > by defining EmployeeViewset. it creates classes like list(), retrieve() , create() , update() , destroy()
 > for web methods like get put post
 
-> Running on ```localhost:8000/api/employee/```
+> To run -> ```localhost:8000/api/employee/```
